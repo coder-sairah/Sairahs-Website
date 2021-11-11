@@ -1,0 +1,35 @@
+body{
+    background-color: #FCE4AE;
+    background-image: url(6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+
+    p{
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .social1{
+        margin-left: 50px;
+    }
+    .social2{
+        margin-left: 80px;
+    }
+
+    .social1:hover img{
+        transform:scale(1.5);
+    }
+
+    .social2:hover img{
+        transform:scale(1.5);
+    }
+
+    .social3:hover img{
+        transform:scale(1.5);
+    }

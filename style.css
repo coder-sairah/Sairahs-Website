@@ -1,0 +1,45 @@
+body{
+    background-color: #FCE4AE;
+    background-image: url(6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.deloris{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.games{
+    position: relative;
+}
+
+.games img{
+    padding: 40px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:900;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.games:hover img{
+    transform:scale(1.5);
+}
